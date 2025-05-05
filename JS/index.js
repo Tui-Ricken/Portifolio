@@ -15,7 +15,7 @@ function alterarIdioma() {
 }
 
 function carregaIdioma(idioma){
-    fetch(`./json/${idioma}.json`).then(data => data.json()).then(data=>{
+    fetch(`JSON/${idioma}.json`).then(data => data.json()).then(data=>{
         traduzirPagina(data);
     });
 }
