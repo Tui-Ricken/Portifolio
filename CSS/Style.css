@@ -15,7 +15,7 @@ h1 {
 }
 
 .header {
-    background-color: var(--bottom-bg-color);
+    background-color: var(--background-color);
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
     border: none;
