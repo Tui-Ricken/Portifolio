@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //buscarInscritos();
     //construirModal();
 
-    const temaLocal = localStorage.getItem("tema");
+    const temaLocal = localStorage.getItem("tema")|| "light";
     document.body.setAttribute("data-theme", temaLocal);
 
-    const idiomaSalvo = localStorage.getItem("idioma") ;
+    const idiomaSalvo = localStorage.getItem("idioma") || "pt";
     idiomaAtual = idiomaSalvo;
 
     const traducaoCache = localStorage.getItem(`traducao_${idiomaAtual}`);
