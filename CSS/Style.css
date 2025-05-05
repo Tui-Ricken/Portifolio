@@ -4,20 +4,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comic Sans MS", cursive, sans-serif !important;
+    font-family: "Comic Sans MS" !important;
 }
 
-h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+.text {
     color: var(--color);
     text-align: center;
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
 }
 
 .header {
     background-color: var(--background-color);
-    font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
     border: none;
     margin: 0;
@@ -27,7 +25,6 @@ h1 {
 .body {
     background-color: var(--background-color);
     color: var(--color);
-    font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -37,18 +34,19 @@ h1 {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: justify;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
-.perfil img {
-    flex-shrink: 0;
-}
-
-.perfil p {
+.perfil_p {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 10px;
     margin: 0;
+    overflow: visible;
 }
 
 .botao_tema {
@@ -64,11 +62,11 @@ h1 {
 
 .card_cabecalho{
     padding: 10px;
-    margin: 5%;
+    margin: 50px 0;
     display: flex;
     align-items: center;
     background-color: var(--card-color);
-    width: 90%;
+    width: auto;
     color: var(--color);
     box-shadow: 0 0 10px var(--card-color);
     border-radius: 10px;
@@ -89,7 +87,6 @@ h1 {
 }
 
 .cabeçalho {
-    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     text-indent: 20px;
@@ -98,4 +95,51 @@ h1 {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.projetos, .habilidades {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+    overflow: visible;
+}
+
+.projetos li, .habilidades li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    background-color: var(--card-color); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--card-color);
+    color: var(--color); 
+    font-size: 1rem;
+    text-align: center; 
+}
+
+.projetos img, .habilidades img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 20%; 
+}
+
+section {
+    margin: 0; 
+    padding: 0; 
 }

@@ -1,40 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt">
 
+<section class="container" id="home">
 
     <body data-theme="light" id="body">
-    <head>	
-        <meta charset="UTF-8">
-        <meta viewport="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/Style.css">
-    
-    </head>
 
-    <header class="header cabeçalho" id="header">
-        <div >    
-            <div style="display: flex; align-items: center; justify-content: space-between; ">
-                <h1 id="titulo" data-i18n="titulo" class="header">
-                    Portfólio:  
-                    Arthur Hydeki Ricken
-                </h1>
-                <div>
-                    <button id="bAlterarTema" class="botao_tema" onclick="alterarTema()">🌓</button>
-                    <button aria-label="Botão de alterar idioma" id="bAlterarIdioma" class="botao_tema" onclick="alterarIdioma()">PT/EN</button>
-                </div>
+        <head>
+            <meta charset="UTF-8">
+            <meta viewport="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="CSS/Style.css">
+
+        </head>
+
+        <header class="header cabeçalho" id="header">
+            <div>
+                <div" style="display: flex; align-items: center; justify-content: space-between; ">
+                    <h1 id="titulo" data-i18n="titulo" class="header">
+                        Portfólio:
+                        Arthur Hydeki Ricken
+                    </h1>
+                    <div>
+                        <button id="bAlterarTema" class="botao_tema" onclick="alterarTema()">🌓</button>
+                        <button aria-label="Botão de alterar idioma" id="bAlterarIdioma" class="botao_tema"
+                            onclick="alterarIdioma()">PT/EN</button>
+                    </div>
             </div>
-        </div>
-    </header>
+            </div>
+        </header>
         <div class="perfil card_cabecalho">
             <img src="img/tui.jpeg" alt="imagem do tui" width="190px" style="border-radius: 50%;">
-            <p id="descricao" data-i18n="descricao" >
-                Sou Arthur Hydeki Ricken, estudante de Engenharia de Software no Instituto Federal do Paraná (IFPR)-Campus Paranavaí, estou no 3º ano do curso.
+            <p id="descricao" data-i18n="descricao">
+                Sou Arthur Hydeki Ricken, estudante de Engenharia de Software no Instituto Federal do Paraná
+                (IFPR)-Campus Paranavaí, estou no 3º ano do curso.
                 Estou sempre em busca de novos desafios e oportunidades para aprender e crescer na área de tecnologia.
-                Já tive contato com algumas linguagens de programação, como Python, Java, JavaScript, HTML, CSS, Dart e SQL.
+                Já tive contato com algumas linguagens de programação, como Python, Java, JavaScript, HTML, CSS, Dart e
+                SQL.
                 Além disso, tenho experiência com o framework Flutter e com o banco de dados MySQL.
-                Como estudante, ainda não possuo muita experiência profissional. No entanto, já participei de um projeto que utilizava Dart e Flutter.
+                Como estudante, ainda não possuo muita experiência profissional. No entanto, já participei de um projeto
+                que utilizava Dart e Flutter.
             </p>
         </div>
         <script src="JS/index.js"></script>
-</body>
+    </body>
+</section>
 
-</html> 
+<section class="container" id="projetos">
+    <header class="header cabeçalho" id="header" style="display: flex; align-items: center; justify-content: space-between; ">
+        <h1 id="projetos" data-i18n="projetos" class="perfil h2">Projetos:</h1>
+    </header>
+    <div class="perfil_p card_cabecalho">
+        <ul class="projetos">
+            <li data-i18n="projeto1" class="projeto li projetos img">
+                <img src="img/python.png" alt="Imagem do projeto 1" width="150px" style="border-radius: 20%;">
+                <p>Projeto 1</p>
+            </li>
+            <li data-i18n="projeto2" class="projeto li projetos img">
+                <img src="img/python.png" alt="Imagem do projeto 2" width="150px" style="border-radius: 20%;">
+                <p>Projeto 2</p>
+            </li>
+            </ul>
+    </div>
+
+</section>
+
+<section class="container" id="habilidades">
+    <header class="header cabeçalho" id="header">
+
+        <div" style="display: flex; align-items: center; justify-content: space-between; ">
+            
+
+                <h1 id="habilidade" data-i18n="habilidades" class="perfil h2">
+                    Habilidades:
+                </h1>
+
+            
+            </div>
+    </header>
+    <div class="perfil_p card_cabecalho">
+
+        <ul class="habilidades">
+            <li data-i18n="habilidade1" class="habilidade li habilidades img">
+                <img src="img/python.png" alt="Imagem Python" width="150px" style="border-radius: 20%;">
+                <p>Python</p>
+            </li>
+            <li data-i18n="habilidade2" class="habilidade li habilidades img">
+                <img src="img/java.png" alt="Imagem Java" width="150px" style="border-radius: 20%;">
+                <p>Java</p>
+            </li>
+            <li data-i18n="habilidade3" class="habilidade li habilidades img">
+                <img src="img/JS.png" alt="Imagem JavaScript" width="150px" style="border-radius: 20%;">
+                <p>JavaScript</p>
+            </li>
+            <li data-i18n="habilidade4" class="habilidade li habilidades img">
+                <img src="img/HTML.png" alt="Imagem HTML" width="150px" style="border-radius: 20%;">
+                <p>HTML</p>
+            </li>
+            <li data-i18n="habilidade5" class="habilidade li habilidades img">
+                <img src="img/CSS.png" alt="Imagem CSS" width="150px" style="border-radius: 20%;">
+                <p>CSS</p>
+            </li>
+            <li data-i18n="habilidade6" class="habilidade li habilidades img">
+                <img src="img/Dart.jpeg" alt="Imagem Dart" width="150px" style="border-radius: 20%;">
+                <p>Dart</p>
+            </li>
+            <li data-i18n="habilidade7" class="habilidade li habilidades img">
+                <img src="img/Mysql.png" alt="Imagem MySQL" width="150px" style="border-radius: 20%;">
+                <p>MySQL</p>
+            </li>
+            <li data-i18n="habilidade8" class="habilidade li habilidades img">
+                <img src="img/Flutter.png" alt="Imagem Flutter" width="150px" style="border-radius: 20%;">
+                <p>Flutter</p>
+            </li>
+        </ul>
+    </div>
+
+    </body>
+
+
+</section>
+
+</html>
