@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     //buscarInscritos();
-    construirModal();
+    //construirModal();
 
     const temaLocal = localStorage.getItem("tema");
     document.body.setAttribute("data-theme", temaLocal);
