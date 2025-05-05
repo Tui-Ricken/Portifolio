@@ -68,7 +68,7 @@ h1 {
     align-items: center;
     background-color: var(--card-color);
     width: 90%;
-    color: #e0e0e0;
+    color: var(--color);
     box-shadow: 0 0 10px var(--card-bg-color);
     border-radius: 10px;
 }
@@ -92,7 +92,7 @@ h1 {
     font-size: 1.5em;
     font-weight: bold;
     text-indent: 20px;
-    color: #e0e0e0;
+    color: var(--color);
     background-color: var(--card-color);
     width: 100%;
     margin: 0;
