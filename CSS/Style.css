@@ -1,0 +1,100 @@
+@import url('variable.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: var(--color);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: --var(--background-color);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: --var(--background-color);
+    color: --var(--color);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.perfil img {
+    flex-shrink: 0;
+}
+
+.perfil p {
+    margin: 0;
+}
+
+.botao_tema {
+    background-color: var(--bottom-bg-color);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 0.5em;
+    margin-right: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.card_cabecalho{
+    padding: 10px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    background-color: var(--card-color);
+    width: 90%;
+    color: #e0e0e0;
+    box-shadow: 0 0 10px var(--card-bg-color);
+    border-radius: 10px;
+}
+.card{
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--card-bg-color);
+    width: 600px;
+    box-shadow: 0 0 10px var(--card-bg-color);
+    border-radius: 10px;
+}
+.cards {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cabeçalho {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-indent: 20px;
+    color: #e0e0e0;
+    background-color: var(--card-color);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
