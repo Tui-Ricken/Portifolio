@@ -107,7 +107,7 @@
     
 }
 
-.projetos, .habilidades {
+.projetos, .habilidades , .experiencias, .formacao{
     display: flex; 
     flex-wrap: wrap; 
     gap: 40px; 
@@ -117,8 +117,18 @@
     justify-content: center; 
     overflow: visible;
 }
+.contatos{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 2px; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+    overflow: visible;
+}
 
-.projetos li, .habilidades li {
+.projetos li, .habilidades li , .experiencias li, .contatos li,.formacao li{
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -132,13 +142,20 @@
     text-align: center; 
 }
 
-.projetos img, .habilidades img {
+.projetos img, .habilidades img , .experiencias img{
     width: 150px; 
     height: 150px; 
     object-fit: cover; 
     border-radius: 20%; 
 }
 
+
+.contatos img{
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    border-radius: 10%; 
+}
 section {
     margin: 0; 
     padding: 0; 

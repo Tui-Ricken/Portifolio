@@ -2,5 +2,11 @@
     "titulo": "Portfólio: Arthur Hydeki Ricken",
     "descricao": "Sou Arthur Hydeki Ricken, estudante de Engenharia de Software no Instituto Federal do Paraná (IFPR)-Campus Paranavaí, estou no 3º ano do curso. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer na área de tecnologia. Já tive contato com algumas linguagens de programação, como Python, Java, JavaScript, HTML, CSS, Dart e SQL. Além disso, tenho experiência com o framework Flutter e com o banco de dados MySQL. Como estudante, ainda não possuo muita experiência profissional. No entanto, já participei de um projeto que utilizava Dart e Flutter.",
     "habilidades": "Habilidades:",
-    "projetos": "Projetos:"
+    "projetos": "Projetos:",
+    "experiencia": "Experiência profissional:",
+    "descriçao experiencia": "Simulação de equipe profissional:",
+    "fundamental": "Ensino Fundamental: Escola Vicentina São Vicente de Paulo - Educação Infantil e Ensino Fundamental",
+    "ensino medio":"Ensino médio: Colégio Nobel Paranavaí",
+    "facul"	: "Faculdade: Instituto Federal do Paraná (IFPR)-Campus Paranavaí",
+    "contato": "Contato:"
 }
